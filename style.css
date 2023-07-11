@@ -1,0 +1,59 @@
+div.bloco{
+  margin: 20px;
+}
+h1, h3{
+  font-family: 'Courier New', Courier, monospace;
+  color: #3b07bd;
+  font-size: 3rem;
+  text-align: center;
+}
+
+span{
+  font-size: 2rem;
+}
+
+.tecnologias div{
+  background-color:#b1b5e7;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div img{
+  width:350px;
+  height:250px;
+  margin: 20px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(35, 35, 34);
+  font-size: 1rem;
+  text-align: justify;
+}
+
+button{
+  background-color: #040fa9;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 250px;
+}
+
+button:hover{
+  background-color: #ffffff;
+  color: blue;
+  font-weight: bold;
+
+}
+
+div.texto{
+  display: block;
+  justify-content: center;
+  padding:50px;
+}
