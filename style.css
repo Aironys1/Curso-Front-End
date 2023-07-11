@@ -57,3 +57,50 @@ div.texto{
   justify-content: center;
   padding:50px;
 }
+
+@media screen and (max-width: 768px){
+  div.bloco{
+    margin: 20px;
+  }
+  h1, h3{
+    font-size: 2rem;
+  }
+  
+  span{
+    font-size: 1rem;
+  }
+  
+  .tecnologias div{
+    gap:1px;
+    display: block;
+    margin:10px auto;
+    
+  }
+  
+  div img{
+    width:150px;
+    height:150px;
+    margin: 20px;
+  }
+
+  p{
+    padding: 20px;
+  }
+  
+
+  button{
+
+    width: 150px;
+  }
+  
+  button:hover{
+    background-color: #ffffff;
+    color: blue;
+    font-weight: bold;
+  
+  }
+  
+  div.texto{
+    padding:10px;
+  }
+}
